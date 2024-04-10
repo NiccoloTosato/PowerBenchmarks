@@ -2,7 +2,7 @@ Allocate: Process running on hwthread 4 (Domain C1) - Vector length 2000000000/1
 Allocate: Process running on hwthread 4 (Domain C1) - Vector length 2000000000/16000000000 Offset 0 Alignment 512
 --------------------------------------------------------------------------------
 LIKWID MICRO BENCHMARK
-Test: copy
+Test: copy_mem_avx
 --------------------------------------------------------------------------------
 Using 1 work groups
 Using 1 threads
@@ -10,26 +10,26 @@ Using 1 threads
 --------------------------------------------------------------------------------
 Group: 0 Thread 0 Global Thread 0 running on hwthread 4 - Vector length 2000000000 Offset 0
 --------------------------------------------------------------------------------
-Cycles:			307348161094
-CPU Clock:		2595132110
-Cycle Clock:		2595132110
-Time:			1.184326e+02 sec
-Iterations:		64
-Iterations per thread:	64
-Inner loop executions:	500000000
+Cycles:			335155519634
+CPU Clock:		2595130020
+Cycle Clock:		2595130020
+Time:			1.291479e+02 sec
+Iterations:		128
+Iterations per thread:	128
+Inner loop executions:	125000000
 Size (Byte):		32000000000
 Size per thread:	32000000000
 Number of Flops:	0
 MFlops/s:		0.00
-Data volume (Byte):	2048000000000
-MByte/s:		17292.54
-Cycles per update:	2.401158
-Cycles per cacheline:	19.209260
+Data volume (Byte):	4096000000000
+MByte/s:		31715.58
+Cycles per update:	1.309201
+Cycles per cacheline:	10.473610
 Loads per update:	1
 Stores per update:	1
 Load bytes per element:	8
 Store bytes per elem.:	8
 Load/store ratio:	1.00
-Instructions:		352000000016
-UOPs:			448000000000
+Instructions:		176000000016
+UOPs:			224000000000
 --------------------------------------------------------------------------------
