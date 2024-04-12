@@ -1,0 +1,37 @@
+Warning: Sanitizing vector length to a multiple of the loop stride 16 and thread count 1 from 1333333333 elements (10666666664 bytes) to 1333333328 elements (10666666624 bytes)
+Allocate: Process running on hwthread 4 (Domain C1) - Vector length 1333333328/10666666624 Offset 0 Alignment 512
+Allocate: Process running on hwthread 4 (Domain C1) - Vector length 1333333328/10666666624 Offset 0 Alignment 512
+Allocate: Process running on hwthread 4 (Domain C1) - Vector length 1333333328/10666666624 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: stream_mem_avx_fma
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 1 threads
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on hwthread 4 - Vector length 1333333328 Offset 0
+--------------------------------------------------------------------------------
+Cycles:			453689676856
+CPU Clock:		2595132054
+Cycle Clock:		2595132054
+Time:			1.748233e+02 sec
+Iterations:		128
+Iterations per thread:	128
+Inner loop executions:	83333333
+Size (Byte):		31999999872
+Size per thread:	31999999872
+Number of Flops:	341333331968
+MFlops/s:		1952.45
+Data volume (Byte):	4095999983616
+MByte/s:		23429.36
+Cycles per update:	2.658338
+Cycles per cacheline:	21.266704
+Loads per update:	2
+Stores per update:	1
+Load bytes per element:	16
+Store bytes per elem.:	8
+Load/store ratio:	2.00
+Instructions:		159999999377
+UOPs:			234666665728
+--------------------------------------------------------------------------------

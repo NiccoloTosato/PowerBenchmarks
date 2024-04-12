@@ -1,0 +1,33 @@
+Allocate: Process running on hwthread 4 (Domain C1) - Vector length 4000000000/32000000000 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: peakflops_avx_fma
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 1 threads
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on hwthread 4 - Vector length 4000000000 Offset 0
+--------------------------------------------------------------------------------
+Cycles:			2322927242974
+CPU Clock:		2594765283
+Cycle Clock:		2594765283
+Time:			8.952360e+02 sec
+Iterations:		150
+Iterations per thread:	150
+Inner loop executions:	1000000000
+Size (Byte):		32000000000
+Size per thread:	32000000000
+Number of Flops:	18000000000000
+MFlops/s:		20106.43
+Data volume (Byte):	4800000000000
+MByte/s:		5361.71
+Cycles per update:	3.871545
+Cycles per cacheline:	30.972363
+Loads per update:	1
+Stores per update:	0
+Load bytes per element:	8
+Store bytes per elem.:	0
+Instructions:		2850000000032
+UOPs:			2700000000000
+--------------------------------------------------------------------------------
