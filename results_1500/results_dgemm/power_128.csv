@@ -1,0 +1,6 @@
+Timestamp,SocketPower0,SocketPower1,ProbabilityScalarArithmetic,ProbabilityScalarLogic,ProbabilityScalarMemory,ProbabilityScalarBranch,ProbabilityScalarJump,ProbabilityVectorArithmetic,ProbabilityVectorLogic,ProbabilityVectorMemory,ProbabilityVectorBranch,ProbabilityVectorJump,PSUPower0,PSUPower1,SystemCpuUsage,ProcessCpuUsage,TimeDifference
+199336400,76.2087,78.8654,4.11,12.37,16.76,0,0,0.99,4.73,7.42,0,0,348,5,2.375,0.772461,8000
+199345760,109.63,116.393,3.78,12.53,18.87,0,0,0,0,11.53,0,0,492,5,2.375,0.776404,9360
+199357060,235.064,245.688,6.54,3.02,3.41,0,0,32.14,0.23,10.03,0,0,574,5,47.25,46.1881,11300
+199373260,126.9,129.475,7.15,1.03,1.61,0,0,39.7601,0.11,13.03,0,0,352,5,99,98.3991,16200
+199380800,5.95574,6.16011,0,0,0,0,0,0,0,0,0,0,352,5,68.8438,67.9205,7540
