@@ -80,4 +80,54 @@ Group: 0 Thread 68 Global Thread 68 running on hwthread 90 - Vector length 16666
 Group: 0 Thread 67 Global Thread 67 running on hwthread 89 - Vector length 166666656 Offset 11166665952
 Group: 0 Thread 69 Global Thread 69 running on hwthread 92 - Vector length 166666656 Offset 11499999264
 Group: 0 Thread 70 Global Thread 70 running on hwthread 93 - Vector length 166666656 Offset 11666665920
-Group: 0 Thread 71 Global Thread 71 running on hwthread 94 - Vector length 166666656 Offset 11
+Group: 0 Thread 71 Global Thread 71 running on hwthread 94 - Vector length 166666656 Offset 11833332576
+Group: 0 Thread 72 Global Thread 72 running on hwthread 96 - Vector length 166666656 Offset 11999999232
+Group: 0 Thread 1 Global Thread 1 running on hwthread 1 - Vector length 166666656 Offset 166666656
+Group: 0 Thread 73 Global Thread 73 running on hwthread 97 - Vector length 166666656 Offset 12166665888
+Group: 0 Thread 75 Global Thread 75 running on hwthread 100 - Vector length 166666656 Offset 12499999200
+Group: 0 Thread 74 Global Thread 74 running on hwthread 98 - Vector length 166666656 Offset 12333332544
+Group: 0 Thread 76 Global Thread 76 running on hwthread 101 - Vector length 166666656 Offset 12666665856
+Group: 0 Thread 77 Global Thread 77 running on hwthread 102 - Vector length 166666656 Offset 12833332512
+Group: 0 Thread 78 Global Thread 78 running on hwthread 104 - Vector length 166666656 Offset 12999999168
+Group: 0 Thread 79 Global Thread 79 running on hwthread 105 - Vector length 166666656 Offset 13166665824
+Group: 0 Thread 80 Global Thread 80 running on hwthread 106 - Vector length 166666656 Offset 13333332480
+Group: 0 Thread 81 Global Thread 81 running on hwthread 108 - Vector length 166666656 Offset 13499999136
+Group: 0 Thread 82 Global Thread 82 running on hwthread 109 - Vector length 166666656 Offset 13666665792
+Group: 0 Thread 83 Global Thread 83 running on hwthread 110 - Vector length 166666656 Offset 13833332448
+Group: 0 Thread 85 Global Thread 85 running on hwthread 113 - Vector length 166666656 Offset 14166665760
+Group: 0 Thread 86 Global Thread 86 running on hwthread 114 - Vector length 166666656 Offset 14333332416
+Group: 0 Thread 84 Global Thread 84 running on hwthread 112 - Vector length 166666656 Offset 13999999104
+Group: 0 Thread 87 Global Thread 87 running on hwthread 116 - Vector length 166666656 Offset 14499999072
+Group: 0 Thread 88 Global Thread 88 running on hwthread 117 - Vector length 166666656 Offset 14666665728
+Group: 0 Thread 89 Global Thread 89 running on hwthread 118 - Vector length 166666656 Offset 14833332384
+Group: 0 Thread 90 Global Thread 90 running on hwthread 120 - Vector length 166666656 Offset 14999999040
+Group: 0 Thread 0 Global Thread 0 running on hwthread 0 - Vector length 166666656 Offset 0
+Group: 0 Thread 93 Global Thread 93 running on hwthread 124 - Vector length 166666656 Offset 15499999008
+Group: 0 Thread 95 Global Thread 95 running on hwthread 126 - Vector length 166666656 Offset 15833332320
+Group: 0 Thread 94 Global Thread 94 running on hwthread 125 - Vector length 166666656 Offset 15666665664
+Group: 0 Thread 92 Global Thread 92 running on hwthread 122 - Vector length 166666656 Offset 15333332352
+Group: 0 Thread 91 Global Thread 91 running on hwthread 121 - Vector length 166666656 Offset 15166665696
+--------------------------------------------------------------------------------
+Cycles:			1290200700126
+CPU Clock:		2594851309
+Cycle Clock:		2594851309
+Time:			4.972157e+02 sec
+Iterations:		38400
+Iterations per thread:	400
+Inner loop executions:	10416666
+Size (Byte):		383999975424
+Size per thread:	3999999744
+Number of Flops:	12799999180800
+MFlops/s:		25743.35
+Data volume (Byte):	153599990169600
+MByte/s:		308920.26
+Cycles per update:	0.201594
+Cycles per cacheline:	1.612751
+Loads per update:	2
+Stores per update:	1
+Load bytes per element:	16
+Store bytes per elem.:	8
+Load/store ratio:	2.00
+Instructions:		5999999616017
+UOPs:			8799999436800
+--------------------------------------------------------------------------------
