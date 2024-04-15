@@ -1,0 +1,83 @@
+Allocate: Process running on hwthread 0 (Domain N) - Vector length 12000000000/96000000000 Offset 0 Alignment 512
+Allocate: Process running on hwthread 0 (Domain N) - Vector length 12000000000/96000000000 Offset 0 Alignment 512
+Initialization: Each thread in domain initializes its own stream chunks
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: daxpy_mem_avx_fma
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 48 threads
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Group: 0 Thread 6 Global Thread 6 running on hwthread 32 - Vector length 250000000 Offset 1500000000
+Group: 0 Thread 7 Global Thread 7 running on hwthread 33 - Vector length 250000000 Offset 1750000000
+Group: 0 Thread 8 Global Thread 8 running on hwthread 34 - Vector length 250000000 Offset 2000000000
+Group: 0 Thread 9 Global Thread 9 running on hwthread 48 - Vector length 250000000 Offset 2250000000
+Group: 0 Thread 10 Global Thread 10 running on hwthread 49 - Vector length 250000000 Offset 2500000000
+Group: 0 Thread 11 Global Thread 11 running on hwthread 50 - Vector length 250000000 Offset 2750000000
+Group: 0 Thread 12 Global Thread 12 running on hwthread 64 - Vector length 250000000 Offset 3000000000
+Group: 0 Thread 13 Global Thread 13 running on hwthread 65 - Vector length 250000000 Offset 3250000000
+Group: 0 Thread 14 Global Thread 14 running on hwthread 66 - Vector length 250000000 Offset 3500000000
+Group: 0 Thread 16 Global Thread 16 running on hwthread 81 - Vector length 250000000 Offset 4000000000
+Group: 0 Thread 15 Global Thread 15 running on hwthread 80 - Vector length 250000000 Offset 3750000000
+Group: 0 Thread 17 Global Thread 17 running on hwthread 82 - Vector length 250000000 Offset 4250000000
+Group: 0 Thread 18 Global Thread 18 running on hwthread 96 - Vector length 250000000 Offset 4500000000
+Group: 0 Thread 19 Global Thread 19 running on hwthread 97 - Vector length 250000000 Offset 4750000000
+Group: 0 Thread 20 Global Thread 20 running on hwthread 98 - Vector length 250000000 Offset 5000000000
+Group: 0 Thread 25 Global Thread 25 running on hwthread 1 - Vector length 250000000 Offset 6250000000
+Group: 0 Thread 21 Global Thread 21 running on hwthread 112 - Vector length 250000000 Offset 5250000000
+Group: 0 Thread 22 Global Thread 22 running on hwthread 113 - Vector length 250000000 Offset 5500000000
+Group: 0 Thread 26 Global Thread 26 running on hwthread 2 - Vector length 250000000 Offset 6500000000
+Group: 0 Thread 23 Global Thread 23 running on hwthread 114 - Vector length 250000000 Offset 5750000000
+Group: 0 Thread 27 Global Thread 27 running on hwthread 16 - Vector length 250000000 Offset 6750000000
+Group: 0 Thread 29 Global Thread 29 running on hwthread 18 - Vector length 250000000 Offset 7250000000
+Group: 0 Thread 28 Global Thread 28 running on hwthread 17 - Vector length 250000000 Offset 7000000000
+Group: 0 Thread 24 Global Thread 24 running on hwthread 0 - Vector length 250000000 Offset 6000000000
+Group: 0 Thread 30 Global Thread 30 running on hwthread 32 - Vector length 250000000 Offset 7500000000
+Group: 0 Thread 35 Global Thread 35 running on hwthread 50 - Vector length 250000000 Offset 8750000000
+Group: 0 Thread 31 Global Thread 31 running on hwthread 33 - Vector length 250000000 Offset 7750000000
+Group: 0 Thread 37 Global Thread 37 running on hwthread 65 - Vector length 250000000 Offset 9250000000
+Group: 0 Thread 38 Global Thread 38 running on hwthread 66 - Vector length 250000000 Offset 9500000000
+Group: 0 Thread 32 Global Thread 32 running on hwthread 34 - Vector length 250000000 Offset 8000000000
+Group: 0 Thread 34 Global Thread 34 running on hwthread 49 - Vector length 250000000 Offset 8500000000
+Group: 0 Thread 41 Global Thread 41 running on hwthread 82 - Vector length 250000000 Offset 10250000000
+Group: 0 Thread 36 Global Thread 36 running on hwthread 64 - Vector length 250000000 Offset 9000000000
+Group: 0 Thread 40 Global Thread 40 running on hwthread 81 - Vector length 250000000 Offset 10000000000
+Group: 0 Thread 33 Global Thread 33 running on hwthread 48 - Vector length 250000000 Offset 8250000000
+Group: 0 Thread 2 Global Thread 2 running on hwthread 2 - Vector length 250000000 Offset 500000000
+Group: 0 Thread 45 Global Thread 45 running on hwthread 112 - Vector length 250000000 Offset 11250000000
+Group: 0 Thread 47 Global Thread 47 running on hwthread 114 - Vector length 250000000 Offset 11750000000
+Group: 0 Thread 44 Global Thread 44 running on hwthread 98 - Vector length 250000000 Offset 11000000000
+Group: 0 Thread 43 Global Thread 43 running on hwthread 97 - Vector length 250000000 Offset 10750000000
+Group: 0 Thread 0 Global Thread 0 running on hwthread 0 - Vector length 250000000 Offset 0
+Group: 0 Thread 46 Global Thread 46 running on hwthread 113 - Vector length 250000000 Offset 11500000000
+Group: 0 Thread 39 Global Thread 39 running on hwthread 80 - Vector length 250000000 Offset 9750000000
+Group: 0 Thread 5 Global Thread 5 running on hwthread 18 - Vector length 250000000 Offset 1250000000
+Group: 0 Thread 3 Global Thread 3 running on hwthread 16 - Vector length 250000000 Offset 750000000
+Group: 0 Thread 42 Global Thread 42 running on hwthread 96 - Vector length 250000000 Offset 10500000000
+Group: 0 Thread 4 Global Thread 4 running on hwthread 17 - Vector length 250000000 Offset 1000000000
+Group: 0 Thread 1 Global Thread 1 running on hwthread 1 - Vector length 250000000 Offset 250000000
+--------------------------------------------------------------------------------
+Cycles:			758669658760
+CPU Clock:		2594736890
+Cycle Clock:		2594736890
+Time:			2.923879e+02 sec
+Iterations:		12960
+Iterations per thread:	270
+Inner loop executions:	15625000
+Size (Byte):		192000000000
+Size per thread:	4000000000
+Number of Flops:	6480000000000
+MFlops/s:		22162.34
+Data volume (Byte):	77760000000000
+MByte/s:		265948.08
+Cycles per update:	0.234157
+Cycles per cacheline:	1.873258
+Loads per update:	2
+Stores per update:	1
+Load bytes per element:	16
+Store bytes per elem.:	8
+Load/store ratio:	2.00
+Instructions:		3037500000017
+UOPs:			4455000000000
+--------------------------------------------------------------------------------
