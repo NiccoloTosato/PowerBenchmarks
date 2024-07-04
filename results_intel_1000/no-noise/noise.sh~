@@ -1,0 +1,10 @@
+efimon-power-analyser -s 50 -o peak/power-no_noise-2.csv -c likwid-bench -t peakflops_avx_fma -W S0:370GB:2:1:1 -i 1500
+wait
+efimon-power-analyser -s 50 -o peak/power-no_noise-4.csv -c likwid-bench -t peakflops_avx_fma -W S0:370GB:4:1:1 -i 1500
+wait
+efimon-power-analyser -s 50 -o peak/power-no_noise-8.csv -c likwid-bench -t peakflops_avx_fma -W S0:370GB:8:1:1 -i 1500
+wait
+efimon-power-analyser -s 50 -o peak/power-no_noise-12.csv -c likwid-bench -t peakflops_avx_fma -W S0:370GB:12:1:1 -i 1500
+wait
+efimon-power-analyser -s 50 -o peak/power-no_noise-24.csv -c likwid-bench -t peakflops_avx_fma -W S0:370GB:24:1:1 -i 1500
+wait

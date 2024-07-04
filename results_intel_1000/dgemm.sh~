@@ -1,0 +1,22 @@
+#!/usr/bin/bash
+#cores=("1" "2" "4" "8" "12" "16" "20" "24")
+
+export PATH=/root/niccolo/benchmarks/dgemm/:$PATH
+module load openBLAS/0.3.23-omp
+export OMP_PLACES=cores
+export OMP_PROC_BIND=spread
+
+export OMP_NUM_THREADS=1
+efimon-power-analyser -s 50 -o power-dgemm-32.csv -c gemm_oblas 100000 100000 100000
+
+export OMP_NUM_THREADS=2
+efimon-power-analyser -s 50 -o power-dgemm-1.csv -c gemm_oblas 100000 100000 100000
+
+export OMP_NUM_THREADS=4
+efimon-power-analyser -s 50 -o power-dgemm-64.csv -c gemm_oblas 100000 100000 100000
+
+export OMP_NUM_THREADS=8
+efimon-power-analyser -s 50 -o power-dgemm-96.csv -c gemm_oblas 100000 100000 100000
+
+export OMP_NUM_THREADS=126
+efimon-power-analyser -s 50 -o power-dgemm-126.csv -c gemm_oblas 100000 100000 100000

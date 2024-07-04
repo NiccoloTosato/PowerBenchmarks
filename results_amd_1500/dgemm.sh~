@@ -1,0 +1,55 @@
+#!/usr/bin/bash
+
+profile_dgemm () {
+
+    export LD_LIBRARY_PATH=/root/niccolo/benchmarks/dgemm/lib
+    export PATH=/root/niccolo/benchmarks/dgemm/:$PATH
+    export OMP_PLACES="{0:$(($1 / 32))}:32:4"
+   if [ $1 -eq 128 ]
+    then
+	# If it is, decrease it by 2
+	export OMP_NUM_THREADS=$(($1 - 2))
+    else
+	export OMP_NUM_THREADS=$1
+   fi
+   export OPENBLAS_NUM_THREADS=$OMP_NUM_THREADS
+   echo $command
+efimon-power-analyser -s 50 -o power-dgemm-$1.csv -c gemm_oblas 100000 100000 100000
+wait
+
+}
+
+profile_idle() {
+  sleep 200 &
+  PID=$!
+  efimon-power-analyser -p ${PID} -s 50 -o power-sleep-$1.csv
+wait
+}
+
+# Define an array of benchmarks
+cores=("32" "1" "64" "96" "128")
+benchmarks=("copy" "copy_mem" "copy_mem_avx" "daxpy_mem_avx_fma" "stream_mem_avx_fma" "update_avx" "load_mem" "load_avx" "store_mem" "store_mem_avx" "peakflops_avx_fma")
+
+# Loop over the array and call the function with each benchmark
+#for core in "${cores[@]}"; do
+#    for benchmark in "${benchmarks[@]}"; do
+#	date
+#	time profile_likwid "$benchmark" "$core"
+#    done
+#done
+
+# Loop over the array and call the function with each benchmark
+
+for core in "${cores[@]}"; do
+#    date
+#    time profile_jump "$core"
+#    date
+#    time profile_branch "$core"
+#    date
+#    time profile_logic "$core"
+    date
+    time profile_dgemm "$core"
+#    date
+#     time profile_idle "$core"
+done
+

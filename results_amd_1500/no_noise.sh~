@@ -1,0 +1,26 @@
+
+likwid-bench -t peakflops_avx_fma -W S0:256GB:16:1:1 -i 50 &
+PID=$!
+taskset -c 127,126 efimon-pid-power-analyser --pid ${PID} -s 50  > power_16.csv
+wait
+#exit
+
+
+likwid-bench -t peakflops_avx_fma -W S0:256GB:32:1:1 -i 150 &
+PID=$!
+taskset -c 127,126 efimon-pid-power-analyser --pid ${PID} -s 50  > power_32.csv
+wait
+
+
+likwid-bench -t peakflops_avx_fma -W S0:328GB:48:1:1 -i 150 &
+PID=$!
+taskset -c 127,126 efimon-pid-power-analyser --pid ${PID} -s 50  > power_48.csv
+wait
+
+
+likwid-bench -t peakflops_avx_fma -W S0:356GB:64:1:1 -i 150 &
+PID=$!
+taskset -c 127,126 efimon-pid-power-analyser --pid ${PID} -s 50  > power_64.csv
+wait
+
+
